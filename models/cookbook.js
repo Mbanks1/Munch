@@ -5,7 +5,7 @@ const cookBookSchema = new Schema({
     title: {type: String},
     image: {type: String}, 
     ingredients: {type: String},
-    addedBy: { type: Schema.Types.ObjectId, ref: 'User'}
+    //savedRecipes: { type: Schema.Types.ObjectId, ref: 'User'}
 },{
     timestamps: true
 })
