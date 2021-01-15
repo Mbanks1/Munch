@@ -32,3 +32,26 @@ function update(req, res){
     .then(entry => {res.json(entry)})
     .catch(err => {res.json(err)})
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
